@@ -307,7 +307,11 @@ ul {
 #middle #news a i {
   margin-left: 12px;
 }
+#middle #cards {
+  overflow: hidden;
+}
 #middle #cards .card1 {
+  overflow: hidden;
   padding: 10px;
   border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
@@ -955,7 +959,7 @@ ul {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   width: 1400px;
-  margin-left: 100px;
+  margin-left: 138px;
 }
 #middle #choose .maxi {
   display: flex;
@@ -1144,6 +1148,7 @@ ul {
 }
 #middle #brends {
   margin-top: 70px;
+  margin-left: 90px;
 }
 #middle #brends .middles {
   display: flex;
@@ -1161,7 +1166,480 @@ ul {
   margin-top: 40px;
   padding: 20px;
 }
+#middle #brends .photo h3 {
+  margin-top: 80px;
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
 #middle #brends .logoedit {
   width: 190px;
   height: 100px;
+}
+#middle #brends .lenovaimg {
+  margin-left: 40px;
+}
+#middle #maxisales {
+  overflow: hidden;
+  width: 1400px;
+  margin-top: 140px;
+  margin-left: 140px;
+  background-color: #EDEDEE;
+  border-radius: 60px;
+}
+#middle #maxisales .maxisale {
+  display: flex;
+  margin-top: 40px;
+}
+#middle #maxisales .maxisale .maxim {
+  color: red;
+  font-size: 40px;
+}
+#middle #maxisales .maxisale .sales {
+  color: black;
+  margin-left: 10px;
+  font-size: 40px;
+}
+#middle #maxisales .prod h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #53595C;
+}
+#middle #maxisales .allsee {
+  background-color: red;
+  width: 290px;
+  height: 60px;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+#middle #maxisales .allsee h3 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+#middle #maxisales .imgbal {
+  margin-top: 160px;
+  width: 200px;
+}
+#middle #maxisales .imgbal img {
+  width: 308px;
+  height: 399px;
+}
+#middle #maxisales .phone1 {
+  width: 319px;
+  height: 770px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+#middle #maxisales .phone1 img {
+  margin-left: 10px;
+  background-color: white;
+  width: 120px;
+  height: 120px;
+}
+#middle #maxisales .phone1 .heart {
+  margin-left: 120px;
+  margin-top: 50px;
+}
+#middle #maxisales .phone1 .heart a i {
+  font-size: 20px;
+  color: #53595C;
+}
+#middle #maxisales .phone1 .samsung img {
+  width: 210px;
+  height: 250px;
+  margin-bottom: 300px;
+  margin-right: 150px;
+  margin-left: -80px;
+}
+#middle #maxisales .phone1 .words {
+  position: absolute;
+  margin-top: 370px;
+  margin-left: -100px;
+  width: 100px;
+  height: 20px;
+  background-color: purple;
+  color: white;
+}
+#middle #maxisales .phone1 .words h4 {
+  margin-top: 2px;
+  font-size: 13px;
+  margin-left: 1px;
+}
+#middle #maxisales .phone1 .words2 {
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 5px;
+  width: 110px;
+  height: 20px;
+  background-color: rgba(37, 174, 96, 0.5);
+  color: white;
+}
+#middle #maxisales .phone1 .words2 h4 {
+  margin-top: 2px;
+  font-size: 13px;
+  margin-left: 1px;
+}
+#middle #maxisales .phone1 .words3 {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: -100px;
+  width: 90px;
+  height: 20px;
+  background-color: rgb(251, 197, 97);
+  color: white;
+}
+#middle #maxisales .phone1 .words3 h4 {
+  margin-top: 2px;
+  font-size: 13px;
+  margin-left: 6px;
+}
+#middle #maxisales .phone1 .words4 {
+  position: absolute;
+  margin-top: 400px;
+  width: 110px;
+  height: 20px;
+  background-color: rgb(23, 104, 201);
+  color: white;
+}
+#middle #maxisales .phone1 .words4 h4 {
+  margin-top: 2px;
+  font-size: 13px;
+  margin-left: 1px;
+}
+#middle #maxisales .phone1 .words5 {
+  position: absolute;
+  margin-top: 430px;
+  margin-left: -100px;
+  width: 60px;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 24px;
+  background-color: white;
+}
+#middle #maxisales .phone1 .words5 h4 {
+  margin-top: 5px;
+  font-size: 15px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+#middle #maxisales .phone1 .words6 {
+  position: absolute;
+  margin-top: 465px;
+  margin-left: -100px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 24px;
+  background-color: white;
+}
+#middle #maxisales .phone1 .circle {
+  position: absolute;
+  margin-top: 470px;
+  margin-left: -98px;
+  width: 12px;
+  height: 20px;
+  border-radius: 20px;
+}
+#middle #maxisales .phone1 .circle h3 {
+  margin-top: -16px;
+  margin-left: -9px;
+  font-size: 35px;
+  color: #53595C;
+  opacity: 0.5px;
+}
+#middle #maxisales .phone1 .words7 {
+  position: absolute;
+  margin-top: 520px;
+  margin-left: -120px;
+  width: 580px;
+  height: 20px;
+  border-radius: 20px;
+}
+#middle #maxisales .phone1 .words7 h3 {
+  font-size: 15px;
+  color: #53595C;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#middle #maxisales .phone1 .stars {
+  position: absolute;
+  margin-top: 550px;
+  margin-left: -120px;
+  width: 580px;
+  height: 20px;
+  border-radius: 20px;
+}
+#middle #maxisales .phone1 .stars i {
+  color: gray;
+}
+#middle #maxisales .phone1 .price {
+  position: absolute;
+  margin-top: 620px;
+  margin-left: -120px;
+  width: 580px;
+  height: 20px;
+  border-radius: 20px;
+}
+#middle #maxisales .phone1 .price span {
+  font-size: 25px;
+}
+#middle #maxisales .phone1 .price del {
+  color: gray;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#middle #maxisales .phone1 .price sup {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#middle #maxisales .phone1 .price i {
+  font-size: 15px;
+}
+#middle #maxisales .phone1 .sales span {
+  font-size: 13px;
+  margin-left: -120px;
+  color: green;
+}
+#middle #maxisales .phone1 .sales i {
+  font-size: 30px;
+  margin-left: 160px;
+}
+#middle #maxisales .phone1 .credit {
+  margin-left: -110px;
+}
+#middle .title-1 {
+  background-color: rgb(251, 230, 155);
+  padding: 7px;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+}
+#middle .title-2 {
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+}
+#middle .title-3 {
+  font-size: 13px;
+  color: #a0a0a0;
+  position: relative;
+  top: 5px;
+  left: 160px;
+}
+#middle .titles {
+  display: flex;
+}
+#middle .cards {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#mad {
+  margin-top: 50px;
+}
+
+#applephone {
+  margin-top: 50px;
+}
+#applephone .text1 {
+  width: 230px;
+  height: 220px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+#applephone .heart {
+  margin-left: 260px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#applephone .heart i {
+  color: #3C3F42;
+}
+#applephone .write {
+  display: flex;
+}
+#applephone .write h5 {
+  font-size: 15px;
+}
+#applephone .write .top {
+  width: 80px;
+  background-color: #FD6A00;
+  color: whitesmoke;
+  padding: 3px;
+}
+#applephone .write .tak {
+  margin-left: 10px;
+  background-color: #8C62A1;
+  color: whitesmoke;
+  padding: 3px;
+}
+#applephone .write .stok {
+  margin-left: 10px;
+  background-color: rgb(37, 174, 96);
+  color: whitesmoke;
+  padding: 3px;
+}
+
+.edv h5 {
+  width: 100px;
+  font-size: 15px;
+  background-color: rgb(23, 104, 201);
+  color: white;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.sales3 {
+  display: flex;
+}
+.sales3 .sales {
+  width: 80px;
+  height: 30px;
+  padding: 8px;
+  background-color: #FBC561;
+  color: white;
+}
+.sales3 .sales h5 {
+  font-size: 15px;
+}
+
+.circle {
+  display: flex;
+  cursor: pointer;
+}
+.circle .fir {
+  height: 30px;
+  border-radius: 10px;
+}
+
+.aboutphone h5 {
+  font-size: 15px;
+}
+
+.starphone i {
+  color: #fed237;
+}
+
+.pricephone {
+  display: flex;
+}
+.pricephone .del1 {
+  margin-left: 10px;
+  margin-top: 9px;
+  color: #85898B;
+}
+.pricephone .smallstar i {
+  font-size: 15px;
+}
+
+.sales {
+  margin-bottom: 8px;
+}
+.sales h5 {
+  font-size: 12px;
+  margin-bottom: 25px;
+  color: white;
+  margin-top: -5px;
+}
+
+.icon1 {
+  position: absolute;
+  left: 270px;
+  bottom: 50px;
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}
+
+.mouth .credit i {
+  color: orange;
+}
+
+.text2 {
+  width: 230px;
+  height: 220px;
+  margin-left: 50px;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+#min .manat {
+  overflow-x: hidden;
+  width: 99%;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  top: 150px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#min .manat .m10 {
+  font-size: 50px;
+  color: #f70000;
+  font-weight: bold;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+#min .manat .manat1 {
+  font-size: 35px;
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  padding-left: 10px;
+}
+#min .manat .hediyye {
+  font-size: 35px;
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: -168px;
+}
+#min .manat .bildiris {
+  width: 100px;
+  font-size: 15px;
+  color: #000000;
+  position: relative;
+  top: 40px;
+  left: -100px;
+}
+#min .manat .name1 {
+  width: 250px;
+  height: 50px;
+  position: relative;
+  top: 45px;
+  left: 389px;
+}
+#min .manat .name2 {
+  width: 250px;
+  height: 50px;
+  position: relative;
+  top: 45px;
+  left: 419px;
+}
+#min .manat .flex {
+  display: flex;
+}
+#min .manat .name3 {
+  position: relative;
+  top: 45px;
+  left: 389px;
+}
+#min .manat .abune-ol {
+  top: -46px;
+  left: 967px;
+  width: 300px;
+  height: 50px;
+  background-color: #ec2127;
+  border-radius: 10px;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 12px;
+  cursor: pointer;
 }/*# sourceMappingURL=task.css.map */

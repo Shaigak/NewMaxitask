@@ -405,7 +405,9 @@ ul {
 
 
     #cards {
+        overflow: hidden;
         .card1 {
+            overflow: hidden;
             padding: 10px;
 
             border-radius: 3px;
@@ -552,6 +554,7 @@ ul {
                     margin-right: 20px;
                     margin-top: 11px;
                     display: flex;
+                    
 
                     font-size: x-large;
                     width: 30px;
@@ -1286,7 +1289,7 @@ ul {
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
         width: 1400px;
-        margin-left: 100px;
+        margin-left: 138px;
 
         .maxi {
             display: flex;
@@ -1318,17 +1321,11 @@ ul {
             }
 
         }
-
         .menus {
-            width: 1100px;
-            
-            
-
+            width: 1100px;     
             ul {
                 display: flex;
                 
-
-
                 li {
                     
 
@@ -1366,11 +1363,8 @@ ul {
                     .music{
                         padding: 13px;
                         width: 200px;
-                        margin-top: -5px;
-                        
-                        font-family:Arial, Helvetica, sans-serif  
-                        
-                        
+                        margin-top: -5px;      
+                        font-family:Arial, Helvetica, sans-serif                    
                     }
 
                     .add{
@@ -1462,7 +1456,6 @@ ul {
 
                         
                     }
-
                     .starphone{
                         .starsphone{
                             margin-left: 180px;
@@ -1471,15 +1464,11 @@ ul {
                             }
                         }
                     }
-
                     .pricephone{
                         margin-top: 25px;
                         color: red;
                         font-size: 30px;
                     }
-
-                    
-
                     .button{
                         
                         position: absolute;
@@ -1526,8 +1515,7 @@ ul {
                         span{
                             color: black;
                         }
-
-                        
+        
                     }
 
                     .time{
@@ -1556,21 +1544,13 @@ ul {
                                 
                             }
                         }
-                    }
-
-                    
-
-                    
+                    }    
                 }
-
-                
-            
-                
         }
     }
-
     #brends{
         margin-top: 70px;
+        margin-left: 90px;
 
        .middles{
         display: flex;
@@ -1592,6 +1572,15 @@ ul {
                 margin-top: 40px;
                 padding: 20px;
             }
+
+            h3{
+                margin-top: 80px;
+                margin-left: 10px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+
            
            
         }
@@ -1601,9 +1590,599 @@ ul {
             height: 100px;
         }
 
-        
+        .lenovaimg{
+            margin-left: 40px;
+        }
         
     }
 
+    #maxisales{
+        overflow: hidden;
+        width: 1400px;
+        margin-top: 140px;
+        margin-left: 140px;
+        background-color: #EDEDEE;
+        border-radius: 60px;
+        
+        .maxisale{
+            display: flex;
+            margin-top: 40px;
 
+            .maxim{
+                color: red;
+                font-size: 40px;
+
+            }
+
+            .sales{
+                color: black;
+                margin-left: 10px;
+                font-size: 40px;
+            }         
+        }
+
+        .prod{
+            h3{
+                margin-top: 15px;
+                font-size: 18px;
+                color: #53595C;
+            }
+               
+        }
+
+        .allsee{
+            background-color: red;
+            width: 290px;
+            height: 60px;
+            margin-top: 40px;
+            padding:20px;
+            border-radius: 5px;
+            color: white;
+            h3{
+                font-size: 20px;
+                margin-left: 5px;
+                
+            }
+        }
+
+        .imgbal{
+            
+            margin-top: 160px;
+            width: 200px;
+            
+            img{
+                width: 308px;
+                height: 399px;
+            }
+
+        }
+
+        .phone1{
+            
+            width: 319px;
+           height: 770px;
+           background-color: white;
+           border-radius: 20px;
+           margin-top: 40px;
+            img{
+                
+                margin-left: 10px;
+                background-color: white;
+                width: 120px;
+                height: 120px;
+            }
+            .heart{
+                margin-left: 120px;
+                margin-top: 50px;
+                a{
+                    
+                    i{
+                        font-size: 20px;
+                        color:#53595C;
+                        
+                    }
+                }
+            }  
+
+           .samsung{
+            img{
+                width: 210px;
+                height: 250px;
+                margin-bottom: 300px;
+                margin-right: 150px;
+                margin-left: -80px;
+                
+            }
+           }
+
+           .words{
+            position: absolute;
+            margin-top: 370px;
+            margin-left: -100px;
+            width: 100px;
+            height: 20px;
+            background-color: purple;
+            color: white;
+
+            h4{
+                margin-top: 2px;
+                font-size: 13px;
+               margin-left: 1px;
+               
+            }
+           }
+
+           .words2{
+            position: absolute;
+            margin-top: 370px;
+            margin-left: 5px;
+            width: 110px;
+            height: 20px;
+            background-color: rgba(37, 174, 96, 0.5);
+            
+            color: white;
+            h4{
+                margin-top: 2px;
+                font-size: 13px;
+               margin-left: 1px;
+            }
+
+           }
+
+           .words3{
+            position: absolute;
+            margin-top: 400px;
+            margin-left: -100px;
+            width: 90px;
+            height: 20px;
+            background-color: rgb(251, 197, 97);
+            
+            color: white;
+
+            h4{
+                margin-top: 2px;
+                font-size: 13px;
+               margin-left: 6px;
+               
+            }
+           }
+
+           .words4{
+            position: absolute;
+            margin-top: 400px;
+            
+            width: 110px;
+            height: 20px;
+            background-color: rgb(23, 104, 201);
+            
+            color: white;
+            h4{
+                margin-top: 2px;
+                font-size: 13px;
+               margin-left: 1px;
+            }
+
+           }
+           
+           .words5{
+
+            position: absolute;
+            margin-top: 430px;
+            margin-left: -100px;
+            width: 60px;
+            height: 30px;
+            border: 1px solid red;
+            border-radius: 24px;
+            background-color: white;
+            
+            h4{
+                margin-top: 5px;
+                font-size: 15px;
+                color: red;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+            }           
+           }
+
+           .words6{
+            
+            position: absolute;
+            margin-top: 465px;
+            margin-left: -100px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid red;
+            border-radius: 24px;
+            background-color: white;
+
+           }
+
+           .circle{
+            position: absolute;
+            margin-top: 470px;
+            margin-left: -98px;
+            width: 12px;
+            height: 20px;
+            border-radius: 20px;
+            
+            
+            h3{
+                margin-top: -16px;
+                margin-left: -9px;
+                font-size: 35px;
+                color: #53595C;
+                opacity: 0.5px;
+            }
+
+           }
+
+           .words7{
+            
+            position: absolute;
+            margin-top: 520px;
+            margin-left: -120px;
+            width: 580px;
+            height: 20px;
+            border-radius: 20px;
+
+            h3{
+                font-size: 15px;
+                color:#53595C;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+           }
+
+           .stars{
+            
+            position: absolute;
+            margin-top: 550px;
+            margin-left: -120px;
+            width: 580px;
+            height: 20px;
+            border-radius: 20px;
+
+            i{
+                color: gray;
+            }
+
+           }
+
+           .price{
+            
+            position: absolute;
+            margin-top: 620px;
+            margin-left: -120px;
+            width: 580px;
+            height: 20px;
+            border-radius: 20px;
+
+            span{
+                font-size: 25px;
+                
+            }
+            
+            del{
+                color: gray;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            sup{
+                color: gray;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+
+            i{
+                font-size: 15px;
+            }
+           }
+
+           .sales{
+            span{
+                
+                font-size: 13px;
+                margin-left: -120px;
+                color: green;
+            }
+            i{
+                font-size: 30px;
+                margin-left: 160px;
+            }
+           }
+
+           .credit{
+            margin-left: -110px;
+           }          
+        }
+        }
+        .title-1{
+    
+            background-color: rgb(251, 230, 155);
+            padding: 7px;
+            color: rgb(0, 0, 0);
+            font-size: 12px;
+        } 
+        .title-2{
+            position: relative;
+            top: 20px;
+            font-weight: bold;
+        }  
+        .title-3{
+            font-size: 13px;
+            color: #a0a0a0;
+            position: relative;
+            top: 5px;
+            left: 160px;
+        }
+        .titles{
+        
+            display:flex;
+        }
+        .cards{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+       
+       
+
+
+    }
+
+    #mad{
+        margin-top: 50px
+    }
+
+    #applephone{
+        
+        margin-top: 50px;
+        
+
+        .text1{
+            width: 230px;
+            height: 220px;
+            margin-left: 50px;
+            font-size: 30px;
+        }
+
+        .heart{
+            margin-left: 260px;
+            font-size: 20px;
+            margin-top: 10px;
+            i{
+                color: #3C3F42;
+            }
+        }
+
+        .write{
+            display: flex;
+           h5{
+            font-size: 15px;
+           }
+
+           .top{
+            width: 80px;
+            background-color: #FD6A00;
+            color: whitesmoke;
+            padding: 3px;
+           }
+
+           .tak{
+            margin-left: 10px;
+            background-color: #8C62A1;
+            color: whitesmoke;
+            padding: 3px;
+           }
+
+           .stok{
+            margin-left: 10px;
+            background-color: rgb(37, 174, 96);
+            color: whitesmoke;
+            padding: 3px;
+           }
+
+        
+           }
+        }
+
+        .edv{
+            h5{
+                width: 100px;
+                font-size: 15px;
+                background-color: rgb(23, 104, 201);
+                color: white;
+                padding: 5px;
+                margin-left: 5px;
+                
+            }
+        }
+        .sales3{
+            display: flex;
+
+            .sales{
+                width: 80px;
+                height: 30px;
+                padding: 8px;
+                background-color: #FBC561;
+                color: white;
+
+                h5{
+                    font-size: 15px;
+                }
+            }
+        }
+        .circle{
+            display: flex;
+            cursor: pointer;
+            .fir{
+                height: 30px;
+                border-radius: 10px;
+                
+                
+            }
+        }
+        .aboutphone{
+            h5{
+                font-size: 15px;
+            }
+        }
+
+        .starphone{
+            i{
+                color: #fed237;
+                
+            }
+        }
+
+        .pricephone{
+            display: flex;
+            .del1{
+                margin-left: 10px;
+                margin-top: 9px;
+                color: #85898B;
+            }
+            .smallstar{
+                i{
+                    font-size: 15px
+                }
+            }
+        }
+
+        .sales{
+            margin-bottom: 8px;
+            h5{
+                font-size: 12px;
+                margin-bottom: 25px;
+                color: white;
+                margin-top: -5px
+            }
+        }
+        .icon1{
+            position: absolute;
+           left: 270px;
+           bottom: 50px;
+          font-size: 30px;
+          color: red;
+          
+          cursor: pointer;
+        }
+
+        .mouth{
+            .credit{
+                i{
+                    color: orange;
+                }
+            }
+        }
+
+        .text2{
+            
+            
+                width: 230px;
+                height: 220px;
+                margin-left: 50px;
+                font-size: 30px;
+                margin-top: 40px;
+           }
+
+           #min{
+            
+.manat {
+    overflow-x: hidden;
+    width: 99%;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: relative;
+    top: 150px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+
+    .m10 {
+
+        font-size: 50px;
+        color: #f70000;
+        font-weight: bold;
+        position: relative;
+        top: 40px;
+        left: 30px;
+    }
+
+    .manat1 {
+        font-size: 35px;
+        color: #000000;
+        font-weight: bold;
+        position: relative;
+        top: 40px;
+        left: 30px;
+        padding-left: 10px;
+    }
+
+    .hediyye {
+        font-size: 35px;
+        color: #000000;
+        font-weight: bold;
+        position: relative;
+        top: 100px;
+        left: -168px;
+
+    }
+
+
+    .bildiris {
+        width: 100px;
+        font-size: 15px;
+        color: #000000;
+        position: relative;
+        top: 40px;
+        left: -100px;
+    }
+
+    .name1 {
+        width: 250px;
+        height: 50px;
+        position: relative;
+        top: 45px;
+        left: 389px;
+    }
+
+    .name2 {
+        width: 250px;
+        height: 50px;
+        position: relative;
+        top: 45px;
+        left: 419px;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .name3 {
+        position: relative;
+        top: 45px;
+        left: 389px;
+    }
+
+    .abune-ol {
+        top: -46px;
+        left: 967px;
+        width: 300px;
+        height: 50px;
+        background-color: #ec2127;
+        border-radius: 10px;
+        position: relative;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 12px;
+        cursor: pointer;
+    }
 }
+           }
+       
+     
+
+    
+
+
